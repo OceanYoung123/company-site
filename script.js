@@ -1,17 +1,22 @@
-// ====== i18n TRANSLATIONS ======
 const i18n = {
   en: {
     nav_home: 'Home', nav_incorp: 'Incorporation', nav_audit: 'Audit & Tax', nav_bank: 'Bank Account',
     nav_secretary: 'Company Secretary', nav_about: 'About Us', nav_contact: 'Contact', nav_login: 'Log In', nav_start: 'Get Started',
-    hero_title: 'Seven-Star Service,<br><span class="hero-highlight">Guarding Your<br>Hong Kong Business</span>',
+    hero_title: 'Seven-Star Service,<br><em>Guarding Your<br>Hong Kong Business</em>',
     hero_subtitle: 'Focused on Hong Kong, Serving the World — Incorporation, audit, tax, banking and compliance, all in one place for global entrepreneurs.',
-    hero_cta1: 'Book Free Consultation', hero_cta2: 'Contact Us',
+    hero_cta1: 'Book Free Consultation',
+    h_pay_text: 'Ready to go?', h_pay_link: 'Pay & Start Instantly →',
+    cta_title: 'Ready to Start Your Hong Kong Business?',
+    cta_desc: 'Join 6,000+ global entrepreneurs who trust LingJian. Get started in minutes.',
+    cta_pay: '💳 Pay & Start Now',
+    cta_pay_note: 'Secure payment via Stripe · <a href="https://wa.me/85246664159">Questions? WhatsApp us</a>',
+    ct_reply: 'We typically respond within 2 hours on business days.', hero_cta2: 'Contact Us',
     stat_clients: 'Clients Served', stat_years: 'Years Experience', stat_countries: 'Countries Covered',
-    card1_title: 'Company Incorporated', card1_desc: 'HK Limited Company — Approved',
-    card2_title: 'Bank Account Opened', card2_desc: 'Multi-currency business account',
-    card3_title: 'Audit & Tax Filed', card3_desc: 'Annual compliance — On track',
-    card4_title: 'Annual Return Filed', card4_desc: 'Company Secretary — Active',
-    card5_title: 'Company Secretary Assigned', card5_desc: 'Compliance & annual filings covered',
+    card1_title: 'Company Incorporation', card1_desc: 'HK Limited Company',
+    card2_title: 'Bank Account Opening', card2_desc: 'Multi-currency Account',
+    card3_title: 'Audit & Tax Filing', card3_desc: 'Annual Compliance',
+    card4_title: 'Annual Return', card4_desc: 'Statutory Filing',
+    card5_title: 'Company Secretary', card5_desc: 'Compliance & Filings',
     svc_tag: 'Our Services', svc_title: 'Full Lifecycle Business<br>Services in Hong Kong',
     svc_desc: 'From company formation to ongoing compliance, we handle every step so you can focus on growing your business.',
     svc1_title: 'Company Incorporation', svc1_desc: 'Register your Hong Kong limited company in as fast as 1 business day. Fully online process — no need to visit Hong Kong.',
@@ -49,15 +54,21 @@ const i18n = {
   'zh-CN': {
     nav_home: '首页', nav_incorp: '公司注册', nav_audit: '审计报税', nav_bank: '银行开户',
     nav_secretary: '公司秘书', nav_about: '关于我们', nav_contact: '联系我们', nav_login: '登录', nav_start: '立即咨询',
-    hero_title: '七星服务，<br><span class="hero-highlight">守护您的<br>香港业务</span>',
+    hero_title: '七星服务，<br><em>守护您的<br>香港业务</em>',
     hero_subtitle: '专注香港，服务全球 — 公司注册、审计报税、银行开户及合规服务，为全球企业家一站式搞定。',
-    hero_cta1: '免费预约咨询', hero_cta2: '联系我们',
+    hero_cta1: '免费预约咨询',
+    h_pay_text: '准备好了？', h_pay_link: '立即支付开始 →',
+    cta_title: '准备好开启您的香港业务了吗？',
+    cta_desc: '加入6,000+全球企业家的信赖选择，几分钟即可开始。',
+    cta_pay: '💳 立即支付开始',
+    cta_pay_note: '通过Stripe安全支付 · <a href="https://wa.me/85246664159">有疑问？WhatsApp联系</a>',
+    ct_reply: '工作日我们通常在2小时内回复。', hero_cta2: '联系我们',
     stat_clients: '服务客户', stat_years: '年行业经验', stat_countries: '国家覆盖',
-    card1_title: '公司已注册', card1_desc: '香港有限公司 — 已批准',
-    card2_title: '银行已开户', card2_desc: '多币种商业账户',
-    card3_title: '审计报税完成', card3_desc: '年度合规 — 进行中',
-    card4_title: '周年申报完成', card4_desc: '公司秘书 — 已激活',
-    card5_title: '公司秘书已委任', card5_desc: '合规及年度存档已覆盖',
+    card1_title: '公司注册', card1_desc: '香港有限公司',
+    card2_title: '银行开户', card2_desc: '多币种账户',
+    card3_title: '审计报税', card3_desc: '年度合规',
+    card4_title: '周年申报', card4_desc: '法定存档',
+    card5_title: '公司秘书', card5_desc: '合规及存档',
     svc_tag: '我们的服务', svc_title: '香港企业<br>全生命周期服务',
     svc_desc: '从公司成立到持续合规，我们处理每一步，让您专注于业务增长。',
     svc1_title: '公司注册', svc1_desc: '最快1个工作日注册香港有限公司。全程线上办理，无需亲赴香港。',
@@ -95,15 +106,21 @@ const i18n = {
   'zh-TW': {
     nav_home: '首頁', nav_incorp: '公司註冊', nav_audit: '審計報稅', nav_bank: '銀行開戶',
     nav_secretary: '公司秘書', nav_about: '關於我們', nav_contact: '聯絡我們', nav_login: '登入', nav_start: '立即諮詢',
-    hero_title: '七星服務，<br><span class="hero-highlight">守護您的<br>香港業務</span>',
+    hero_title: '七星服務，<br><em>守護您的<br>香港業務</em>',
     hero_subtitle: '專注香港，服務全球 — 公司註冊、審計報稅、銀行開戶及合規服務，為全球企業家一站式搞定。',
-    hero_cta1: '免費預約諮詢', hero_cta2: '聯絡我們',
+    hero_cta1: '免費預約諮詢',
+    h_pay_text: '準備好了？', h_pay_link: '立即支付開始 →',
+    cta_title: '準備好開啟您的香港業務了嗎？',
+    cta_desc: '加入6,000+全球企業家的信賴選擇，幾分鐘即可開始。',
+    cta_pay: '💳 立即支付開始',
+    cta_pay_note: '透過Stripe安全支付 · <a href="https://wa.me/85246664159">有疑問？WhatsApp聯繫</a>',
+    ct_reply: '工作日我們通常在2小時內回覆。', hero_cta2: '聯絡我們',
     stat_clients: '服務客戶', stat_years: '年行業經驗', stat_countries: '國家覆蓋',
-    card1_title: '公司已註冊', card1_desc: '香港有限公司 — 已批准',
-    card2_title: '銀行已開戶', card2_desc: '多幣種商業帳戶',
-    card3_title: '審計報稅完成', card3_desc: '年度合規 — 進行中',
-    card4_title: '週年申報完成', card4_desc: '公司秘書 — 已啟動',
-    card5_title: '公司秘書已委任', card5_desc: '合規及年度存檔已覆蓋',
+    card1_title: '公司註冊', card1_desc: '香港有限公司',
+    card2_title: '銀行開戶', card2_desc: '多幣種帳戶',
+    card3_title: '審計報稅', card3_desc: '年度合規',
+    card4_title: '週年申報', card4_desc: '法定存檔',
+    card5_title: '公司秘書', card5_desc: '合規及存檔',
     svc_tag: '我們的服務', svc_title: '香港企業<br>全生命週期服務',
     svc_desc: '從公司成立到持續合規，我們處理每一步，讓您專注於業務增長。',
     svc1_title: '公司註冊', svc1_desc: '最快1個工作天註冊香港有限公司。全程線上辦理，無需親赴香港。',
@@ -140,108 +157,104 @@ const i18n = {
   }
 };
 
-let currentLang = 'en';
+let cL = 'en';
 
-function switchLang(lang) {
-  currentLang = lang;
-  document.documentElement.setAttribute('data-lang', lang);
-  // Update switcher buttons
-  document.querySelectorAll('.lang-switcher button').forEach(btn => btn.classList.remove('active'));
-  const labels = {'en': 'EN', 'zh-CN': '简', 'zh-TW': '繁'};
-  document.querySelectorAll('.lang-switcher button').forEach(btn => {
-    if (btn.textContent.trim() === labels[lang]) btn.classList.add('active');
+function switchLang(l) {
+  cL = l;
+  document.documentElement.setAttribute('data-lang', l);
+  var lb = { en: 'EN', 'zh-CN': '简', 'zh-TW': '繁' };
+  document.querySelectorAll('.lang-sw button').forEach(function(b) {
+    b.classList.remove('a');
+    if (b.textContent.trim() === lb[l]) b.classList.add('a');
   });
-  // Update text content
-  const t = i18n[lang] || i18n.en;
-  document.querySelectorAll('[data-i18n]').forEach(el => {
-    const key = el.getAttribute('data-i18n');
-    if (t[key]) {
-      // Preserve SVG children
-      const svgs = el.querySelectorAll('svg');
-      if (svgs.length > 0) {
-        const svg = svgs[0].outerHTML;
-        el.innerHTML = svg + ' ' + t[key];
-      } else {
-        el.textContent = t[key];
-      }
+  var t = i18n[l] || i18n.en;
+  document.querySelectorAll('[data-i18n]').forEach(function(el) {
+    var k = el.getAttribute('data-i18n');
+    if (t[k]) {
+      var svgs = el.querySelectorAll('svg');
+      if (svgs.length) { el.innerHTML = svgs[0].outerHTML + ' ' + t[k]; }
+      else { el.textContent = t[k]; }
     }
   });
-  document.querySelectorAll('[data-i18n-html]').forEach(el => {
-    const key = el.getAttribute('data-i18n-html');
-    if (t[key]) el.innerHTML = t[key];
+  document.querySelectorAll('[data-i18n-html]').forEach(function(el) {
+    var k = el.getAttribute('data-i18n-html');
+    if (t[k]) el.innerHTML = t[k];
   });
 }
 
-// ====== NAVBAR SCROLL ======
-const navbar = document.getElementById('navbar');
-const backToTop = document.getElementById('backToTop');
-window.addEventListener('scroll', () => {
-  navbar.classList.toggle('scrolled', window.scrollY > 50);
-  backToTop.classList.toggle('show', window.scrollY > 600);
+/* Navbar scroll */
+var nav = document.getElementById('nav');
+var btt = document.getElementById('btt');
+window.addEventListener('scroll', function() {
+  nav.classList.toggle('s', scrollY > 50);
+  btt.classList.toggle('show', scrollY > 500);
 });
 
-// ====== MOBILE MENU ======
+/* Mobile menu */
 function toggleMenu() {
-  document.getElementById('navLinks').classList.toggle('active');
-  document.getElementById('hamburger').classList.toggle('active');
+  document.getElementById('nLinks').classList.toggle('on');
+  document.getElementById('ham').classList.toggle('on');
 }
 
-// ====== SMOOTH SCROLL ======
-document.querySelectorAll('a[href^="#"]').forEach(a => {
-  a.addEventListener('click', e => {
+/* Smooth scroll */
+document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+  a.addEventListener('click', function(e) {
     e.preventDefault();
-    const t = document.querySelector(a.getAttribute('href'));
+    var t = document.querySelector(a.getAttribute('href'));
     if (t) {
-      t.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      document.getElementById('navLinks').classList.remove('active');
-      document.getElementById('hamburger').classList.remove('active');
+      t.scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('nLinks').classList.remove('on');
+      document.getElementById('ham').classList.remove('on');
     }
   });
 });
 
-// ====== COUNTER ANIMATION ======
-let countersAnimated = false;
-function animateCounters() {
-  if (countersAnimated) return;
-  countersAnimated = true;
-  document.querySelectorAll('.stat-number').forEach(el => {
-    const target = parseInt(el.dataset.target);
-    const duration = 2000;
-    const step = target / (duration / 16);
-    let current = 0;
-    const timer = setInterval(() => {
-      current += step;
-      if (current >= target) { current = target; clearInterval(timer); }
-      el.textContent = Math.floor(current).toLocaleString();
+/* Counter animation */
+var cDone = false;
+function animCounters() {
+  if (cDone) return;
+  cDone = true;
+  document.querySelectorAll('.h-st-n').forEach(function(el) {
+    var tgt = parseInt(el.dataset.target);
+    if (!tgt) return;
+    var sup = el.querySelector('sup');
+    var supH = sup ? sup.outerHTML : '';
+    var dur = 1800, step = tgt / (dur / 16), cur = 0;
+    var tm = setInterval(function() {
+      cur += step;
+      if (cur >= tgt) { cur = tgt; clearInterval(tm); }
+      el.innerHTML = Math.floor(cur).toLocaleString() + supH;
     }, 16);
   });
 }
 
-// ====== SCROLL ANIMATIONS ======
-const obs = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('vis');
-      if (entry.target.classList.contains('hero')) animateCounters();
+/* Scroll reveal */
+var obs = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e) {
+    if (e.isIntersecting) {
+      e.target.classList.add('v');
+      if (e.target.closest && e.target.closest('.hero')) animCounters();
     }
   });
-}, { threshold: 0.12 });
-document.querySelectorAll('.fade-up, .service-card, .advantage-card, .testimonial-card, .about-content, .hero').forEach(el => obs.observe(el));
+}, { threshold: 0.1 });
 
-// ====== FORM SUBMIT ======
-function handleSubmit(e) {
-  e.preventDefault();
-  const msgs = {
-    en: 'Thank you for your enquiry! Our team will contact you within 2 hours during business days.',
-    'zh-CN': '感谢您的咨询！我们的团队将在工作日2小时内与您联系。',
-    'zh-TW': '感謝您的諮詢！我們的團隊將在工作日2小時內與您聯繫。'
-  };
-  alert(msgs[currentLang] || msgs.en);
-}
-
-// ====== STAGGERED ANIMATIONS ======
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.service-card').forEach((c, i) => { c.style.transitionDelay = (i * 0.1) + 's'; });
-  document.querySelectorAll('.advantage-card').forEach((c, i) => { c.style.transitionDelay = (i * 0.08) + 's'; });
-  document.querySelectorAll('.testimonial-card').forEach((c, i) => { c.style.transitionDelay = (i * 0.12) + 's'; });
+document.querySelectorAll('.fu,.svc-c,.adv-c,.rev-c,.about-c,.hero').forEach(function(el) {
+  obs.observe(el);
 });
+
+/* Staggered animations */
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.svc-c').forEach(function(c, i) { c.style.transitionDelay = (i * 0.07) + 's'; });
+  document.querySelectorAll('.adv-c').forEach(function(c, i) { c.style.transitionDelay = (i * 0.06) + 's'; });
+  document.querySelectorAll('.rev-c').forEach(function(c, i) { c.style.transitionDelay = (i * 0.1) + 's'; });
+});
+
+/* Payment */
+function payNow() {
+  var msgs = {
+    en: 'Payment link coming soon!\n\nPlease contact us to arrange payment:\n📱 WhatsApp: +852 4666 4159\n✉️ Email: photos9085@gmail.com',
+    'zh-CN': '支付链接即将上线！\n\n请联系我们安排付款：\n📱 WhatsApp: +852 4666 4159\n✉️ 邮箱: photos9085@gmail.com',
+    'zh-TW': '支付連結即將上線！\n\n請聯絡我們安排付款：\n📱 WhatsApp: +852 4666 4159\n✉️ 電郵: photos9085@gmail.com'
+  };
+  alert(msgs[cL] || msgs.en);
+}
